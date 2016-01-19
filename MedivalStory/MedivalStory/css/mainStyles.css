@@ -1,0 +1,6 @@
+﻿#main {
+    border: 20px solid #ccb089;
+    -webkit-border-image: url(/imgs/wooden_frame.jpg) 50 65;
+    -o-border-image: url(/imgs/wooden_frame.jpg) 50 65;
+    border-image: url(/imgs/wooden_frame.jpg) 50 65;
+}

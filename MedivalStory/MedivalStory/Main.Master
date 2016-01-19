@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MedivalStory.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Medival Story</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/mainStyles.css"/>
+    <meta charset="utf-8" />
+    <asp:ContentPlaceHolder ID="headPH" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="main">
+        <div style="left: 96%; position: fixed;" class="nav nav-tabs">
+            <div class="active dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"> </span></a>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="#">Character List</a></li>
+                    <li><a href="#">Inventory</a></li>
+                    <li><a href="#">Dairy</a></li>
+                    <li><a href="#">Menus</a></li>
+                </ul>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ViewerPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="DescriptionPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder runat="server" ID="ControlPlaceHolder">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

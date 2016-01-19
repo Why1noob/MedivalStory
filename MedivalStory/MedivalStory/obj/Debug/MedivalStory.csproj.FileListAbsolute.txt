@@ -1,0 +1,6 @@
+C:\projects\MedivalStory\MedivalStory\MedivalStory\bin\MedivalStory.dll.config
+C:\projects\MedivalStory\MedivalStory\MedivalStory\bin\MedivalStory.dll
+C:\projects\MedivalStory\MedivalStory\MedivalStory\bin\MedivalStory.pdb
+C:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.csprojResolveAssemblyReference.cache
+C:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.dll
+C:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.pdb
