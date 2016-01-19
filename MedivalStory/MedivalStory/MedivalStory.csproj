@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Beginning.aspx" />
     <Content Include="css\mainStyles.css" />
     <Content Include="imgs\mainBorderBL.png" />
     <Content Include="imgs\mainBorderBottom.png" />
@@ -67,10 +68,16 @@
     <Content Include="imgs\mainBorderTop.png" />
     <Content Include="imgs\mainBorderTR.png" />
     <Content Include="imgs\wooden_frame.jpg" />
-    <Content Include="stratPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beginning.aspx.cs">
+      <DependentUpon>Beginning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beginning.aspx.designer.cs">
+      <DependentUpon>Beginning.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
@@ -78,13 +85,6 @@
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="stratPage.aspx.cs">
-      <DependentUpon>stratPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="stratPage.aspx.designer.cs">
-      <DependentUpon>stratPage.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />
