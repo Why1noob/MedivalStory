@@ -2,5 +2,19 @@
     border: 20px solid #ccb089;
     -webkit-border-image: url(/imgs/wooden_frame.jpg) 50 65;
     -o-border-image: url(/imgs/wooden_frame.jpg) 50 65;
+    -moz-border-image: url(/imgs/wooden_frame.jpg) 50 65;
+    -ms-border-image: url(/imgs/wooden_frame.jpg) 50 65;
     border-image: url(/imgs/wooden_frame.jpg) 50 65;
+    width: 100%;
+}
+
+.inner-frame{
+    box-shadow: inset 5px 5px 5px 5px #888888;
+    margin: 2px;
+}
+
+.narrator-font{
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+    font-size: 250%;
 }
