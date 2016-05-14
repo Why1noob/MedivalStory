@@ -2,14 +2,11 @@
 <asp:Content ID="ContentHead" ContentPlaceHolderID="headPH" runat="server">
 </asp:Content>
 <asp:Content ID="ContentView" ContentPlaceHolderID="ViewerPlaceHolder" runat="server">
-    <div class="inner-frame narrator-font" style="height: 100%">
         <p style="text-indent: 50px;">
-        Words of introduction.
+            Words of introduction.
         </p>
-    </div>
 </asp:Content>
 <asp:Content ID="ContentDisc" ContentPlaceHolderID="DescriptionPlaceHolder" runat="server">
-    <div class="inner-frame" style="height: 100%;">
-        <div class="col-xs-11 invisible">a</div><div class="col-xs-1"><a href="#" class="btn btn-default"><strong>Next</strong></a></div>
-    </div>
+        <div class="col-xs-12 invisible" style="height:80%">a</div>
+        <div class="col-xs-11 invisible">a</div><div class="col-xs-1"><a href="StoryStart.aspx" class="btn btn-default"><strong>Next</strong></a></div>
 </asp:Content>

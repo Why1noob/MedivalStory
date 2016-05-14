@@ -28,17 +28,21 @@
             </div>
         </div>
         <div class="panel panel-info" style="margin-bottom:0; padding:0;" id="view">
-            <div class="panel-heading">
-        <asp:ContentPlaceHolder ID="ViewerPlaceHolder" runat="server">
-        
-        </asp:ContentPlaceHolder>
+            <div class="panel-heading" style="height:100%;">
+                <div class="inner-frame narrator-font" style="height: 100%">
+                    <asp:ContentPlaceHolder ID="ViewerPlaceHolder" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
             </div>
         </div>
         <div class="panel panel-warning" style="margin-bottom:0; padding:0;" id="disc">
-            <div class="panel-heading">
+            <div class="panel-heading" style="height:100%;">
+                <div class="inner-frame" style="height: 100%;">
         <asp:ContentPlaceHolder ID="DescriptionPlaceHolder" runat="server">
         
         </asp:ContentPlaceHolder>
+                </div>
              </div>
         </div>
     </div>
@@ -48,6 +52,6 @@
 <script>
     var h = $(window).height();
     $('#main').css('height', h);
-    $('#view').css('height', h * 0, 7);
-    $('#disc').css('height', h * 0, 3);
+    $('#view').css('height', h * 0.7);
+    $('#disc').css('height', h * 0.3-37);
 </script>

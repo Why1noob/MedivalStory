@@ -4,3 +4,9 @@ C:\projects\MedivalStory\MedivalStory\MedivalStory\bin\MedivalStory.pdb
 C:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.csprojResolveAssemblyReference.cache
 C:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.dll
 C:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.pdb
+D:\projects\MedivalStory\MedivalStory\MedivalStory\bin\MedivalStory.dll.config
+D:\projects\MedivalStory\MedivalStory\MedivalStory\bin\MedivalStory.dll
+D:\projects\MedivalStory\MedivalStory\MedivalStory\bin\MedivalStory.pdb
+D:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.csprojResolveAssemblyReference.cache
+D:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.dll
+D:\projects\MedivalStory\MedivalStory\MedivalStory\obj\Debug\MedivalStory.pdb
